@@ -173,11 +173,8 @@ h1 {
     align-items: center;
     padding-bottom: 20px;
     margin-bottom: 20px;
-
     width: 1340px;
     height: 24px;
-
-
 }
 
 .barre-info img {
@@ -373,8 +370,8 @@ a {
     align-items: center;
     gap: 20px;
     padding: 20px;
-    
-    
+
+
 
 }
 
@@ -402,33 +399,21 @@ footer {
 
 }
 
+.a-propos h3 {
 
+    margin-left: 10px;
+}
 
 .a-propos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 200px;
-    margin-left: 5%;
+    margin-right: 130px;
+    margin-left: 10px;
 }
-
 
 .nos-hebergements {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 200px;
-    margin-left: 15%;
-    margin-right: 15%;
+
+    margin-right: 130px;
 }
 
-.assistance {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 200px;
-    margin-right: 30%;
-}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -470,4 +455,7 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+
+
 }
