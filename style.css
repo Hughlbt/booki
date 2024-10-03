@@ -712,34 +712,37 @@ footer {
     .filtre {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
         margin-top: 50px;
         margin-bottom: 50px;
         width: 100%;
-        height: 50px;
+        
 
     }
 
     .filtre label {
-        font-size: 25px;
+        font-family: raleway;
+        font-size: 22px;
         width: 100%;
+        margin-left: 20px;
 
 
     }
 
     .filtre button {
-        font-size: 20px;
+        font-size: 15px;
         height: 50px;
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 40%;
+        margin-left: 15px;
+        
     }
 
     .barre-info {
 
         width: 100%;
         height: 50px;
-        font-size: 25px;
+        font-size: 19px;
     }
 
     .hebergements-and-populaires {
