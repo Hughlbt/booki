@@ -384,9 +384,9 @@ a {
 
 }
 
- .activites article.card {
+.activites article.card {
     padding: 0%;
-    }
+}
 
 .activites-card img {
 
@@ -529,7 +529,7 @@ footer {
         border-radius: 10px 10px 0px 0px;
     }
 
-    
+
     .activites-card .card-content {
         display: flex;
         align-items: center;
@@ -563,6 +563,19 @@ footer {
 @media (max-width: 767.98px) {
     /* ... */
 
+    body {
+        width: 100%;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .main-container {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
     header {
 
         display: flex;
@@ -578,12 +591,26 @@ footer {
         margin-top: 30px;
     }
 
+    nav {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .navigation {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
     .boutons-navigation {
-        font-size: 25px;
-        margin-left: 90px;
-        margin-right: 90px;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
         color: black;
         border: 2.5px solid transparent;
+
     }
 
     .boutons-navigation:hover {
@@ -681,13 +708,14 @@ footer {
     .filtre label {
         font-size: 25px;
         width: 100%;
-        
+
+
     }
 
     .filtre button {
         font-size: 20px;
         height: 50px;
-        width: 40%;
+        width: 100%;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -704,18 +732,32 @@ footer {
     }
 
     .hebergements {
+        display: flex;
+        flex-direction: column;
+
         width: 100%;
+        margin-left: none;
+        padding-left: none;
     }
 
 
     .hebergements-cards {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
+        margin-left: none;
+        padding-left: none;
+
+    }
+
+    .hebergements-cards img {
+        width: 100%;
     }
 
     .hebergements-cards a {
         width: 100%;
+        padding-left: none;
+        margin-left: none;
     }
 
 
@@ -744,29 +786,44 @@ footer {
 
     .activites {
         width: 100%;
+        margin-bottom: 20px;
     }
 
-   
+    .activites-card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+    }
+
+
+    .activites-card img {
+        width: 100%;
+    }
+
+
     footer {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        margin-top: 50px;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 1000px;
+        font-size: 21px;
     }
 
     .a-propos {
         margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .nos-hebergements {
         margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .assistance {
         margin-right: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
 }
