@@ -119,6 +119,10 @@ h1 {
 
 }
 
+.search-bar button img {
+    display: none;
+}
+
 .search-bar button:hover {
     background-color: #0056b3;
 }
@@ -619,13 +623,16 @@ footer {
     }
 
     .entete h1 {
-        font-size: 30px;
+        font-size: 25px;
+
     }
 
     .entete {
         margin-top: 50px;
         margin-bottom: 50px;
-        font-size: 21px;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 15px;
 
     }
 
@@ -634,21 +641,21 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         margin-top: 50px;
         margin-bottom: 50px;
-        width: 100%;
-        height: 60px;
+        width: 85%;
+        height: 50px;
         background: #FFFFFF;
         border: 1px solid #F2F2F2;
         border-radius: 15px;
-
-
+        margin-left: 15px;
     }
 
     .search-bar img {
 
-        width: 13%;
-        height: 60px;
+        width: 25%;
+        height: 50px;
         background-color: #F2F2F2;
         border-radius: 10px 0px 0px 10px;
         border-color: #F2F2F2;
@@ -657,8 +664,8 @@ footer {
 
     .search-bar input {
 
-        width: 75%;
-        height: 58px;
+        width: 100%;
+        height: 48px;
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -667,27 +674,35 @@ footer {
         color: #000000;
         border: none;
         outline: none;
+
     }
 
     .search-bar button {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 15px 16px;
-        gap: 10px;
 
-        width: 30%;
-        height: 60px;
+        width: 15%;
+        height: 50px;
 
         background: #0065FC;
         border: 1px solid #0065FC;
-        border-radius: 0px 15px 15px 0px;
+        border-radius: 15px 15px 15px 15px;
 
-        font-size: 25px;
-        color: white;
         cursor: pointer;
 
 
+    }
+
+    .search-bar button img {
+        display: flex;
+        background-color: #0065FC;
+        width: 25px;
+    }
+     /* Pb avec image toujours */
+
+    .search-bar button p {
+        display: none;
     }
 
     .search-bar button:hover {
