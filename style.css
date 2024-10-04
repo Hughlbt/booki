@@ -134,7 +134,7 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     width: 67%;
-    height: 50 px;
+    height: 50px;
     gap: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -154,7 +154,7 @@ h1 {
     background-color: white;
     padding-right: 20px;
     cursor: pointer;
-    font: raleway;
+    font-size: raleway;
     font-weight: 700;
     size: 17px;
     line-height: 19.96px;
@@ -440,12 +440,23 @@ footer {
 
 
     .filtre {
-
-        width: 90%;
+        width: 100%;
+        height: 15%;
+        flex-wrap: wrap;
     }
+    .filtre label {
+        width: 100%;
+        padding-bottom: 0px;
+        }
+
+        .filtre button {
+            width: 21%;
+            font-size: 13px;
+        }
+
 
     .barre-info {
-        width: 50%;
+        width: 70%;
     }
 
     .hebergements-and-populaires {
@@ -520,14 +531,14 @@ footer {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 100%;
+        width: 210px;
         height: 180px;
 
     }
 
 
     .activites-card img {
-        width: 190px;
+        width: 210px;
         height: 180px;
         border-radius: 10px 10px 0px 0px;
     }
@@ -536,7 +547,9 @@ footer {
     .activites-card .card-content {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         height: 60px;
+        width: 80%;
         padding-left: 20px;
     }
 
@@ -589,7 +602,7 @@ footer {
     }
 
     .logo {
-        height: 50%;
+
         width: 20%;
         margin-top: 30px;
     }
