@@ -41,7 +41,7 @@ h1 {
     color: black;
     text-decoration: none;
     border: 2.5px solid transparent;
-    padding-top: 18px;
+    padding-top: 17px;
 
 }
 
@@ -437,8 +437,12 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    .boutons-navigation {
 
 
+        padding-top: 13px;
+
+    }
 
     .filtre {
         width: 100%;
@@ -622,17 +626,20 @@ footer {
     .navigation {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
 
     }
 
     .boutons-navigation {
+        width: 100%;
         font-size: 15px;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding-left: 10%;
+        padding-right: 13%;
         padding-bottom: 10px;
+        margin: 0px;
         color: black;
-        border: 2.5px solid transparent;
+        border-bottom: 2.5px solid #F2F2F2;
+
 
     }
 
