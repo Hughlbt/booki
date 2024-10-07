@@ -770,6 +770,7 @@ footer {
     }
 
 
+
     .hebergements {
         order: 2;
     }
@@ -777,6 +778,16 @@ footer {
     .populaires {
         order: 1;
     }
+
+    .hebergements-and-populaires section {
+        border-radius: 0%;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+    }
+
+
 
     .hebergements {
         display: flex;
@@ -874,6 +885,7 @@ footer {
         width: 100%;
         padding-left: 20px;
     }
+
     .a-propos {
         width: 100%;
         padding-left: 21px;
@@ -884,9 +896,9 @@ footer {
 
         margin-left: 0px;
     }
-    
 
-    
+
+
     .nos-hebergements {
         width: 100%;
         padding-left: 21px;
@@ -894,9 +906,9 @@ footer {
     }
 
     .assistance {
-       width: 100%;
-       padding-left: 21px;
-       margin: 0px;
+        width: 100%;
+        padding-left: 21px;
+        margin: 0px;
     }
 
 }
