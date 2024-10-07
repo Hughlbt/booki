@@ -792,8 +792,8 @@ footer {
     .hebergements-cards {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        margin-left: 10px;
+        align-items: center;
+        width: 100%;
         padding-left: none;
 
     }
@@ -863,19 +863,40 @@ footer {
         font-size: 15px;
     }
 
-    .a-propos {
-        margin-right: 10px;
-        margin-left: 20px;
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
+    .title-footer {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .a-propos {
+        width: 100%;
+        padding-left: 21px;
+        margin: 0px;
+    }
+
+    .a-propos h3 {
+
+        margin-left: 0px;
+    }
+    
+
+    
     .nos-hebergements {
-        margin-right: 10px;
-        margin-left: 20px;
+        width: 100%;
+        padding-left: 21px;
+        margin: 0px;
     }
 
     .assistance {
-        margin-right: 10px;
-        margin-left: 20px;
+       width: 100%;
+       padding-left: 21px;
+       margin: 0px;
     }
 
 }
