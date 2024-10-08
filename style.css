@@ -463,9 +463,10 @@ footer {
         flex-wrap: wrap;
     }
 
-    .filtre label {
+    .filtre h3 {
         width: 100%;
         padding-bottom: 0px;
+        margin-bottom: 0px;
     }
 
     .filtre button {
@@ -766,10 +767,8 @@ footer {
 
     }
 
-    .filtre label {
-        font-family: raleway;
-        font-size: 18px;
-        font-weight: bold;
+    .filtre h3 {
+
         width: 100%;
         margin-left: 20px;
 
