@@ -63,7 +63,7 @@ h1 {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 27%;
+    width: 350px;
     height: 49px;
     background: #FFFFFF;
     border: 1px solid #F2F2F2;
@@ -98,7 +98,7 @@ h1 {
     /* Pour enlever le cadre bleu lorsqu'on tape du texte */
 }
 
-.search-bar button {
+.search-bar .recherche {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -119,11 +119,12 @@ h1 {
 
 }
 
-.search-bar button img {
-    display: none;
+.search-bar .loupe {
+    display: none
 }
 
-.search-bar button:hover {
+
+.search-bar .recherche:hover {
     background-color: #0056b3;
 }
 
@@ -479,6 +480,8 @@ footer {
         width: 70%;
     }
 
+
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -719,7 +722,9 @@ footer {
 
     }
 
-    .search-bar button {
+
+
+    .search-bar .loupe {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -736,7 +741,7 @@ footer {
 
     }
 
-    .search-bar button img {
+    .search-bar .loupe img {
         display: flex;
         background-color: #0065FC;
         border: 1px solid #0065FC;
@@ -745,15 +750,17 @@ footer {
         height: 50px;
     }
 
-    /* Pb avec image toujours */
+    .search-bar .loupe:hover {
+        background-color: #0065FC;
+    }
 
-    .search-bar button p {
+
+    .search-bar .recherche {
         display: none;
     }
 
-    .search-bar button:hover {
-        background-color: #0056b3;
-    }
+
+
 
     .filtre {
         display: flex;
@@ -790,7 +797,9 @@ footer {
         font-size: 19px;
     }
 
-
+    .barre-info p {
+        width: 90%;
+    }
 
     .hebergements {
         order: 2;
