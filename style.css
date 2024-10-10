@@ -128,7 +128,6 @@ h1 {
     background-color: #0056b3;
 }
 
-
 .filtre {
     display: flex;
     flex-direction: row;
@@ -613,7 +612,7 @@ footer {
     body {
         width: 100%;
         margin-right: 5px;
-        margin-left: 5px;
+        margin-left: 0px;
     }
 
     .main-container {
@@ -909,12 +908,10 @@ footer {
 
     .title-footer {
         width: 100%;
-        padding-left: 20px;
     }
 
     .a-propos {
         width: 100%;
-        padding-left: 21px;
         margin: 0px;
     }
 
@@ -927,13 +924,11 @@ footer {
 
     .nos-hebergements {
         width: 100%;
-        padding-left: 21px;
         margin: 0px;
     }
 
     .assistance {
         width: 100%;
-        padding-left: 21px;
         margin: 0px;
     }
 
