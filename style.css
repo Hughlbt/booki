@@ -23,7 +23,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5%;
-    /* A voir son utilité */
     padding-top: 1%;
     /* Pour que les éléments soient un peu moins collés sur le haut de l'écran */
 
@@ -690,18 +689,15 @@ footer {
         justify-content: center;
         margin-top: 50px;
         margin-bottom: 30px;
-        width: 80%;
+        width: 90%;
         height: 48px;
-        margin-left: 10%;
-        background: #FFFFFF;
-        border: 1px solid #F2F2F2;
+        margin-left: 3%;
+        border: 0px;
         border-radius: 15px;
     }
 
     .search-bar img {
 
-        width: 35%;
-        height: 48px;
         background-color: #F2F2F2;
         border-radius: 10px 0px 0px 10px;
     }
@@ -715,7 +711,7 @@ footer {
         font-weight: 700;
         text-align: center;
         color: #000000;
-        border: none;
+        border: 1px solid #F2F2F2;
         outline: none;
 
     }
@@ -726,9 +722,6 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-
-        width: 33%;
-        height: 48px;
         padding: 0px;
         background: #0065FC;
         border: 1px solid #0065FC;
@@ -740,6 +733,8 @@ footer {
     }
 
     .search-bar .loupe img {
+        width: 52px;
+        height: 52px;
         display: flex;
         background-color: #0065FC;
         border: 1px solid #0065FC;
@@ -882,6 +877,12 @@ footer {
         width: 100%;
         height: 1250px;
         margin-bottom: 20px;
+    }
+
+
+    .title-activites {
+        padding-top: 0px;
+        margin-top: 0px;
     }
 
     .activites-card {
